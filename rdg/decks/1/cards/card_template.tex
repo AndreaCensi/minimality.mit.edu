@@ -1,3 +1,5 @@
+\usepackage{xcolor}
+\definecolor{indigo}{RGB}{75, 0, 130}
 \usepackage{tikz,nopageno}
 \usepackage{wasysym}
 \usepackage{expl3}
@@ -90,15 +92,28 @@ preaction={drop shadow={shadow xshift=0.3mm,shadow yshift=0.3mm,white!70!black}}
         (\backgroundthickness+\framethickness,\attbartop) rectangle 
         (\cardwidth-\backgroundthickness-\framethickness,\topbarbottom);
 
-    \node[anchor=south west] at (\backgroundthickness+\framethickness+0.5\cardwidth,\attbartop) { %
-        % \fbox{
-        \begin{minipage}{4.5cm}%
-            \centering
-            \vfill
-            \fitbox[maxwidth=4.5cm, maxheight=3cm, minwidth=1cm, minheight=1cm]{\includegraphics{#4}}%
-            \vfill
-        \end{minipage}%%
-        };
+    % \node[anchor=south west] at (\backgroundthickness+\framethickness+0.5\cardwidth,\attbartop) { %
+    %     \begin{minipage}{4.5cm}%
+    %         \centering
+    %         \vfill
+    %         \fitbox[maxwidth=4.5cm, maxheight=3cm, minwidth=1cm, minheight=1cm]{\includegraphics{#4}}%
+    %         \vfill
+    %     \end{minipage}%
+    %     };
+
+   \node[anchor=south west] at (\backgroundthickness-1.7pt,\attbartop-4pt) {%
+    \begin{clipbox*}{0cm 0cm 5.15cm 3.40cm}%
+    \includegraphics[width=5.15cm]{#4}%
+    % \begin{minipage}{4.5cm}\centering%
+    % \includegraphics[height=3.40cm]{#4}%
+    % \end{minipage}%
+    \end{clipbox*}%
+    };
+
+    \draw[black,thick,fill=none] %Draw Image placeholder
+        (\backgroundthickness+\framethickness,\attbartop) rectangle 
+        (\cardwidth-\backgroundthickness-\framethickness,\topbarbottom);
+
 
     \draw[black,thick,fill=#1!40] %Draw top bar
          (\backgroundthickness+\framethickness,\topbarbottom+\framethickness) 

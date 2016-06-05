@@ -4,244 +4,348 @@
 \usepackage[margin=2mm]{geometry}
 \usepackage{graphicx}
 \input{card_template.tex}
-	
-	\begin{document}
-	
-\card{red}{Flippers}{}{actuator}{Actuation}{}{}
-\card{red}{One segway base}{}{actuator}{Actuation}{}{}
-\card{red}{RC Car}{}{actuator}{Actuation}{}{}
+    
+    \begin{document}
+    
+\card{red}{Flippers}{}{flippers}{Resource -- \textbf{Actuation}}{}{ flippers}
+\card{red}{Vacuum Gripper}{}{vacuum_gripper}{Resource -- \textbf{Actuation}}{}{ vacuum\_gripper}
+\card{red}{Cyber-Cockroach}{}{cyber_cockroach}{Resource -- \textbf{Actuation}}{}{ cyber\_cockroach}
 
 
 
-\card{red}{1 Leg Hopper}{}{actuator}{Actuation}{}{}
-\card{red}{LED}{}{actuator}{Actuation}{}{}
-\card{red}{Vacuum Gripper}{}{actuator}{Actuation}{}{}
+\card{red}{Weasel ball}{}{weaselball}{Resource -- \textbf{Actuation}}{}{ weaselball}
+\card{red}{Tesla Model X Chassis}{}{model_x_chassis}{Resource -- \textbf{Actuation}}{}{ model\_x\_chassis}
+\card{red}{One segway base}{}{segway_base}{Resource -- \textbf{Actuation}}{}{ segway\_base}
 
 
 
-\card{red}{Shovel}{}{actuator}{Actuation}{}{}
-\card{red}{DDR}{}{actuator}{Actuation}{}{}
-\card{red}{Cyber-Cockroach}{}{actuator}{Actuation}{}{}
-
-
-\clearpage
-\card{red}{One tentacle}{}{actuator}{Actuation}{}{}
-\card{red}{Puppetry Wires}{}{actuator}{Actuation}{}{}
-\card{red}{2 Propeller}{}{actuator}{Actuation}{}{}
-
-
-
-\card{red}{Tracks}{}{actuator}{Actuation}{}{}
-\card{red}{2 Legs}{}{actuator}{Actuation}{}{}
-\card{red}{Steerable Needle}{}{actuator}{Actuation}{}{}
-
-
-
-\card{red}{Weasel ball}{}{actuator}{Actuation}{}{}
-\card{red}{One robotic finger}{}{actuator}{Actuation}{\\\textit{``When the finger points to the moon, the student looks at the finger.''}}{}
-\card{red}{Loudspeaker}{}{actuator}{Actuation}{}{}
+\card{red}{DDR}{}{actuator}{Resource -- \textbf{Actuation}}{}{ ddr}
+\card{red}{Puppetry Wires}{}{puppetry_wires}{Resource -- \textbf{Actuation}}{}{ puppetry\_wires}
+\card{red}{1 RGB LED}{}{actuator}{Resource -- \textbf{Actuation}}{}{ led}
 
 
 \clearpage
-\card{red}{One hand}{}{actuator}{Actuation}{}{}
-\card{red}{Balloon}{}{actuator}{Actuation}{}{}
-\card{green}{\$ 1}{}{1USD}{Budget}{\\\textit{``Mo' money less problems.''}}{}
+\card{red}{Christmas lights}{}{christmas_lights}{Resource -- \textbf{Actuation}}{}{ christmas\_lights}
+\card{red}{Tracks}{}{tracks}{Resource -- \textbf{Actuation}}{}{ tracks}
+\card{red}{RC Car Chassis}{}{rc_car_chassis}{Resource -- \textbf{Actuation}}{}{ rc\_car\_chassis}
 
 
 
-\card{green}{\$ 100}{}{100USD}{Budget}{\\\textit{``Mo' money less problems.''}}{}
-\card{brown}{Acoustic modem}{}{communication}{Communication}{10 bit/s}{}
-\card{brown}{The Ansible}{}{communication}{Communication}{You have an infinite communication channel at zero power consumption}{}
+\card{red}{Circular Saw}{}{circular_saw}{Resource -- \textbf{Actuation}}{}{ circular\_saw}
+\card{red}{2 Legs}{}{2legs}{Resource -- \textbf{Actuation}}{A basic humanoid leg kit sold by TrossenRobotics.}{6359.90 USD 2legs}
+\card{red}{One robotic finger}{}{finger1}{Resource -- \textbf{Actuation}}{\\[1.2mm]\textit{``When the finger points to the moon, the student looks at the finger.''}}{ finger1}
 
 
 
-\card{brown}{Communication tether}{}{communication}{Communication}{}{}
-\card{brown}{WiFi 802.11 NIC}{}{communication}{Communication}{}{}
-\card{brown}{Carrier Pigeon}{}{communication}{Communication}{}{}
-
-
-\clearpage
-\card{brown}{Smoke signals}{}{communication}{Communication}{}{}
-\card{purple}{The cloud}{}{cloud}{Computation}{You have infinite computation (if you have the bandwidth)\\\textit{``Somewhere, over the rainbow!''}}{}
-\card{purple}{100-state DFA}{}{computation}{Computation}{}{}
-
-
-
-\card{purple}{Arduino}{}{computation}{Computation}{}{}
-\card{purple}{Tensorflow}{}{computation}{Computation}{}{}
-\card{purple}{FPGA}{}{computation}{Computation}{}{}
-
-
-
-\card{purple}{1 transistor}{}{computation}{Computation}{}{}
-\card{purple}{Random Number Generator}{}{computation}{Computation}{}{}
-\card{purple}{Macbook Pro}{}{computation}{Computation}{}{}
+\card{red}{Tesla Car Chassis}{}{actuator}{Resource -- \textbf{Actuation}}{}{ tesla\_chassis}
+\card{red}{DC Motor}{}{dcmotor}{Resource -- \textbf{Actuation}}{}{ dcmotor}
+\card{red}{One robotic hand}{}{1hand}{Resource -- \textbf{Actuation}}{}{ 1hand}
 
 
 \clearpage
-\card{purple}{Raspberry PI 2}{}{computation}{Computation}{}{}
-\card{purple}{Oracle}{}{oracle}{Computation}{This oracle answers one 1 bit question per second.}{}
-\card{purple}{Infinite Computation}{}{computation}{Computation}{}{}
+\card{red}{Lynxmotion Pan-tilt Kit}{}{lynxmotion_pan_tilt_kit}{Resource -- \textbf{Actuation}}{A cheap pan-tilt kit made of two HiTec servos (HS-422) and two Lynxmotion servo brackets.}{29 USD lynxmotion\_pan\_tilt\_kit}
+\card{red}{Magnetic field}{}{actuator}{Resource -- \textbf{Actuation}}{}{ magnetic\_field}
+\card{red}{Five links for a robot snake}{}{actuator}{Resource -- \textbf{Actuation}}{}{ 5\_snake\_links}
 
 
 
-\card{white}{Theory of Everything}{}{fundamental}{Special}{A reviewer can use this card to dismiss the paper as over-reaching.
-\\\textit{The results should be more concrete.}}{}
-\card{white}{Fundamental Theorem (2006)}{}{fundamental}{Special}{Allows a reviewer to reject a paper without explanation. It is neutralized by (Egerstedt, 2001).
-\\\textit{The Fundamental Theorem of Robotics (O'Kane, 2006) subsumes all subsequent results.}}{}
-\card{white}{Fundamental Theorem (2001)}{}{fundamental}{Special}{This card can be played at any time in response to a paper.  The effect is that the paper is rejected. 
-\\\textit{The Fundamental Theorem of Robotics (Egerstedt, 2001) subsumes all subsequent results.}}{}
+\card{red}{Linear Actuator}{}{linear_actuator}{Resource -- \textbf{Actuation}}{}{ linear\_actuator}
+\card{red}{Servocity PT-2100 Pan-tilt Kit}{}{servocity_pt2100_pan_tilt_kit}{Resource -- \textbf{Actuation}}{This professional pan-tilt kit can move a payload of up to 10 kg.}{8.5 lbs; 1,199.99 USD servocity\_pt2100\_pan\_tilt\_kit}
+\card{red}{PR2 Gripper}{}{pr2_gripper}{Resource -- \textbf{Actuation}}{}{ pr2\_gripper}
 
 
 
-\card{red}{One pebble}{}{memory}{Memory}{}{}
-\card{red}{Infinite memory}{}{memory}{Memory}{}{}
-\card{red}{640 KB}{}{memory}{Memory}{\\\textit{640 KB should be enough for everybody.}}{}
-
-
-\clearpage
-\card{red}{1 bit}{}{memory}{Memory}{}{}
-\card{red}{Ideal Stack}{}{memory}{Memory}{}{}
-\card{white}{2x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 2.}{}
-
-
-
-\card{white}{2x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 2.}{}
-\card{white}{2x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 2.}{}
-\card{white}{5x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 5.}{}
-
-
-
-\card{white}{5x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 5.}{}
-\card{white}{5x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 5.}{}
-\card{white}{10x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 10.}{}
+\card{red}{3D Hopper}{}{3D_hopper}{Resource -- \textbf{Actuation}}{The 3D Hopper was created in 1988 by Marc Raibert while at MIT. Successively, Raibert left MIT to found Boston Dynamics.
+}{ 3D\_hopper}
+\card{red}{Balloon}{}{balloon}{Resource -- \textbf{Actuation}}{}{ balloon}
+\card{red}{One tentacle}{}{1tentacle}{Resource -- \textbf{Actuation}}{}{ 1tentacle}
 
 
 \clearpage
-\card{white}{10x multiplier}{}{multiplier}{Special}{A chosen resource can be multiplied by 10.}{}
-\card{yellow}{AA Battery}{}{power}{Power}{}{}
-\card{yellow}{Power Tether}{}{power}{Power}{}{}
+\card{red}{Prismatic Joint}{}{actuator}{Resource -- \textbf{Actuation}}{}{ prismatic\_joint}
+\card{red}{Wheel}{}{actuator}{Resource -- \textbf{Actuation}}{}{ wheel}
+\card{red}{Loudspeaker}{}{loudspeaker}{Resource -- \textbf{Actuation}}{}{ loudspeaker}
 
 
 
-\card{yellow}{Infinite battery}{}{power}{Power}{}{}
-\card{yellow}{1 megawatt}{}{power}{Power}{1 megawatt will keep you warm}{}
-\card{yellow}{1 milliwatt}{}{power}{Power}{1 milliwatt should be plenty for everybody}{}
+\card{red}{2 Propellers}{}{2propellers}{Resource -- \textbf{Actuation}}{}{ 2propellers}
+\card{red}{Steerable Needle}{}{steerable_needle}{Resource -- \textbf{Actuation}}{}{ steerable\_needle}
+\card{green}{100 USD (better)}{}{100USD}{Resource -- \textbf{Budget}}{USD 100}{ 100USD}
 
 
 
-\card{yellow}{1 watt}{}{power}{Power}{1 watt is plenty for everything}{}
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-
-
-\clearpage
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-
-
-
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-
-
-
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-\card{yellow}{Bitterness}{}{bitterness}{Rewards}{Your opinion as a reviewer counts double.
-}{}
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
+\card{green}{1 USD (better)}{}{1USD}{Resource -- \textbf{Budget}}{USD 1}{ 1USD}
+\card{green}{USD 10,000}{}{budget}{Resource -- \textbf{Budget}}{You have 10,000 USD to buy all components.}{+ 10000 USD 10KUSD}
+\card{blue}{Smoke Signals}{}{smoke_signal}{Resource -- \textbf{Communication}}{}{ smoke\_signal}
 
 
 \clearpage
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
+\card{blue}{Communication tether}{}{comm_tether}{Resource -- \textbf{Communication}}{}{ comm\_tether}
+\card{blue}{WiFi 802.11 NIC}{}{wifi_802_11}{Resource -- \textbf{Communication}}{}{ wifi\_802\_11}
+\card{blue}{Carrier Pigeon}{}{carrier_pigeon}{Resource -- \textbf{Communication}}{}{ carrier\_pigeon}
 
 
 
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
+\card{blue}{Acoustic Modem}{}{acoustic_modem}{Resource -- \textbf{Communication}}{10 bit/s}{ acoustic\_modem}
+\card{blue}{The Ansible}{}{ansible}{Resource -- \textbf{Communication}}{You have an infinite communication channel at zero power consumption}{ ansible}
+\card{green}{Random Number Generator}{}{rng}{Resource -- \textbf{Computation}}{}{ rng}
 
 
 
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
-\card{yellow}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
-}{}
+\card{green}{Arduino Uno}{}{arduino_uno}{Resource -- \textbf{Computation}}{}{20 USD arduino\_uno}
+\card{green}{1 transistor}{}{1transistor}{Resource -- \textbf{Computation}}{}{ 1transistor}
+\card{green}{NVidia Jetson TK1}{}{jetson_tk1}{Resource -- \textbf{Computation}}{}{199 USD jetson\_tk1}
 
 
 \clearpage
-\card{blue}{Linear Odometer}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
-\card{blue}{1-point Range Finder}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
-\card{blue}{Microphone}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
+\card{green}{Raspberry PI 2}{}{raspberry_pi_2}{Resource -- \textbf{Computation}}{}{35 USD raspberry\_pi\_2}
+\card{green}{Infinite Computation}{}{computation}{Resource -- \textbf{Computation}}{}{ infinite\_computation}
+\card{green}{The Cloud}{}{cloud}{Resource -- \textbf{Computation}}{You have infinite computation -- but not necessarily infinite bandwidth.\\[1.2mm]\textit{``Somewhere, over the rainbow!''}}{ cloud}
 
 
 
-\card{blue}{Bump Sensor}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
-\card{blue}{Hokuyo range-finder}{\cost{blue}{\footnotesize 5 W}}{hokuyo_urg}{Sensing}{A reliable sensor. Maximum range is 8m.}{2000 USD}
-\card{blue}{Camera}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
+\card{green}{FPGA}{}{fpga}{Resource -- \textbf{Computation}}{}{ fpga}
+\card{green}{100-state DFA}{}{computation}{Resource -- \textbf{Computation}}{}{ 100dfa}
+\card{green}{TrueNorth Processor}{}{truenorth}{Resource -- \textbf{Computation}}{The neuromorphic processor created by IBM.
+}{ truenorth}
 
 
 
-\card{blue}{Parabolic mirror}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{Turns a camera into an omnidirectional camera.}{? USD}
-\card{blue}{Earth GPS Receiver}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
-\card{blue}{Pressure Sensor}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
-
-
-\clearpage
-\card{blue}{Compass}{\cost{blue}{\footnotesize ? W}}{unknown}{Sensing}{}{? USD}
-\card{blue}{Photoreceptor}{}{unknown}{Sensing}{}{}
-\card{white}{Goal posts have moved}{}{unknown}{Special}{You can slightly change the current task.
-}{}
-
-
-
-\card{white}{IRB Approval}{}{unknown}{Special}{The IRB will approve your project in spite of its questionable ethics.
-}{}
-\card{white}{3D printer}{}{unknown}{Special}{You can 3D print a piece for your robot.
-}{}
-\card{white}{The Power of Friendship}{}{unknown}{Special}{Use a card belonging to somebody else.}{}
-
-
-
-\card{white}{Very dedicated grad student}{}{unknown}{Special}{???}{}
-\card{white}{Rod Brooks}{}{unknown}{Special}{???}{}
-\card{white}{A Russian did it in the 1960s}{}{unknown}{Special}{???
-}{}
+\card{green}{Macbook Pro}{}{macbook_pro}{Resource -- \textbf{Computation}}{}{ macbook\_pro}
+\card{green}{Oracle}{}{oracle}{Resource -- \textbf{Computation}}{This oracle answers one 1 bit question per second.}{ oracle}
+\card{magenta}{Underwater}{}{underwater}{Environment}{}{ underwater}
 
 
 \clearpage
-\card{white}{Steve Lavalle}{}{lavalle}{Special}{The computation requirements of the proposed solution are divided by 10.}{}
-\card{yellow}{1 day}{}{unknown}{Time}{1 day to perform the task}{}
-\card{yellow}{Infinite training data}{}{unknown}{Training Data}{You have infinite training data.}{}
+\card{magenta}{Pacman's maze}{}{pacman_maze}{Environment}{}{ pacman\_maze}
+\card{magenta}{Lake Michigan}{}{lake_michigan}{Environment}{}{ lake\_michigan}
+\card{magenta}{The Bates Motel}{}{bates_motel}{Environment}{}{ bates\_motel}
 
 
 
-\card{yellow}{8000 robot-hours of training data}{}{unknown}{Training Data}{}{}
-\card{yellow}{Perfect parameter tuning}{}{unknown}{Training Data}{}{}
-\card{yellow}{Lazy graduate student}{}{unknown}{Training Data}{The lazy graduate student will only collect 2 hours of training data.}{}
+\card{magenta}{Intel Lab in Seattle}{}{intel_lab}{Environment}{}{ intel\_lab}
+\card{magenta}{Mount Etna}{}{etna}{Environment}{}{ etna}
+\card{magenta}{Deep Space}{}{deep_space}{Environment}{}{ deep\_space}
 
 
 
+\card{magenta}{Bat Cave}{}{batcave}{Environment}{}{ batcave}
+\card{magenta}{Mars}{}{mars}{Environment}{}{ mars}
+\card{magenta}{Hoth}{}{hoth}{Environment}{}{ hoth}
+
+
+\clearpage
+\card{magenta}{In the mall}{}{in_the_mall}{Environment}{}{ in\_the\_mall}
+\card{magenta}{The Dagobah Swamps}{}{dagobah}{Environment}{}{ dagobah}
+\card{magenta}{The Endor Forest}{}{endor}{Environment}{}{ endor}
+
+
+
+\card{magenta}{Tatooine}{}{tatooine}{Environment}{}{ tatooine}
+\card{magenta}{Ice Rink}{}{ice_rink}{Environment}{}{ ice\_rink}
+\card{magenta}{In a thoroidal office space}{}{torus}{Environment}{}{ torus}
+
+
+
+\card{magenta}{On a ski slope}{}{ski_slope}{Environment}{}{ ski\_slope}
+\card{white}{Theory of Everything}{}{everything16}{Special}{A reviewer can use this card to dismiss the paper as over-reaching.
+\\[1.2mm]\textit{The results should be more concrete.}}{ everything16}
+\card{white}{Fundamental Theorem}{}{fundamental}{Special}{This card can be played by a reviewer to reject a paper by appealing to authority.
+\\[1.2mm]\textit{The Fundamental Theorem of Robotics (Egerstedt, 2001) subsumes all subsequent results.}}{ fundamental01}
+
+
+\clearpage
+\card{brown}{Color-changing material}{}{color_changing_material}{Resource -- \textbf{Materials}}{}{ color\_changing\_material}
+\card{brown}{All the aluminum you need}{}{aluminum}{Resource -- \textbf{Materials}}{}{ aluminum}
+\card{brown}{A bag containing 300 duckies}{}{bag_of_duckies}{Resource -- \textbf{Materials}}{}{ bag\_of\_duckies}
+
+
+
+\card{brown}{One standard duckie}{}{duckie}{Resource -- \textbf{Materials}}{}{ duckie}
+\card{brown}{Shovel}{}{shovel}{Resource -- \textbf{Materials}}{}{ shovel}
+\card{brown}{All the graphene you need}{}{graphene}{Resource -- \textbf{Materials}}{}{ graphene}
+
+
+
+\card{brown}{All the balsa you need}{}{balsa}{Resource -- \textbf{Materials}}{}{ balsa}
+\card{brown}{A giant rubber duckie}{}{giant_rubber_duckie}{Resource -- \textbf{Materials}}{}{ giant\_rubber\_duckie}
+\card{brown}{640 KB}{}{640KB}{Resource -- \textbf{Memory}}{\\[1.2mm]\textit{640K ought to be enough for anybody.}}{ 640KB}
+
+
+\clearpage
+\card{brown}{Infinite memory}{}{memory}{Resource -- \textbf{Memory}}{}{ infinite\_memory}
+\card{brown}{One pebble}{}{pebble}{Resource -- \textbf{Memory}}{}{ pebble}
+\card{brown}{Ideal Stack}{}{memory}{Resource -- \textbf{Memory}}{}{ stack}
+
+
+
+\card{brown}{1 bit}{}{memory}{Resource -- \textbf{Memory}}{}{ 1bit}
+\card{white}{2x multiplier}{}{mult2}{Special}{A chosen resource can be multiplied by 2.}{ mult2}
+\card{white}{5x multiplier}{}{mult5}{Special}{A chosen resource can be multiplied by 5.}{ mult5}
+
+
+
+\card{white}{10x multiplier}{}{mult10}{Special}{A chosen resource can be multiplied by 10.}{ mult10}
+\card{white}{$\infty$ multiplier}{}{multinf}{Special}{A chosen resource can be multiplied by $\infty$.}{ multinf}
+\card{violet}{Very Dedicated Grad Student}{}{dedicated_grad_student}{Resource -- \textbf{Collaborator}}{Use this resource as you wish.
+}{ dedicated\_grad\_student}
+
+
+\clearpage
+\card{violet}{Steve Lavalle}{}{lavalle}{Resource -- \textbf{Collaborator}}{Thanks to an optimal design of the filter, you can \emph{handwave away} all the concerns regarding the computation requirements of the proposed solution.
+}{ lavalle}
+\card{violet}{Friend at IRB committee}{}{irb_approval}{Resource -- \textbf{Collaborator}}{The IRB will approve your project in spite of its questionable ethics. This card is especially useful in conjuction with \textit{Very Dedicated Grad Student}.
+}{ irb\_approval}
+\card{magenta}{Titan XIII}{}{titanXIII}{Resource -- \textbf{Platform}}{The newest sprawling-type quadruped robot from the Fukushima laboratory at TokyoTech.
+}{ titanXIII}
+
+
+
+\card{magenta}{Baxter}{}{baxter}{Resource -- \textbf{Platform}}{}{ baxter}
+\card{magenta}{KUKA Youbot}{}{kuka_youbot}{Resource -- \textbf{Platform}}{}{ kuka\_youbot}
+\card{magenta}{Gimball}{}{gimball}{Resource -- \textbf{Platform}}{}{ gimball}
+
+
+
+\card{magenta}{R2D2}{}{r2d2}{Resource -- \textbf{Platform}}{}{ r2d2}
+\card{magenta}{Robobee}{}{robobee}{Resource -- \textbf{Platform}}{}{ robobee}
+\card{magenta}{Dragon Runner}{}{dragon_runner}{Resource -- \textbf{Platform}}{A compact remote-controlled robot used by the British army.
+}{20 lbs; 120,000 USD dragon\_runner}
+
+
+\clearpage
+\card{magenta}{PR2}{}{pr2}{Resource -- \textbf{Platform}}{}{ pr2}
+\card{magenta}{DJI Phantom 4}{}{dji_phantom_4}{Resource -- \textbf{Platform}}{}{400 USD dji\_phantom\_4}
+\card{magenta}{Duckiebot}{}{duckiebot}{Resource -- \textbf{Platform}}{}{ duckiebot}
+
+
+
+\card{purple}{Li-ion AA Battery}{}{aa_battery}{Resource -- \textbf{Power}}{A rechargeable battery.}{30 g aa\_battery}
+\card{purple}{A 1 km Power Tether}{}{power_tether}{Resource -- \textbf{Power}}{}{+$\infty$ W power\_tether}
+\card{purple}{1 megawatt}{}{power}{Resource -- \textbf{Power}}{}{1 MW megawatt}
+
+
+
+\card{purple}{100 watt}{}{power}{Resource -- \textbf{Power}}{}{100 W 100watt}
+\card{purple}{1 milliwatt}{}{power}{Resource -- \textbf{Power}}{}{1 mw milliwatt}
+\card{purple}{Rechargeable AAA Battery}{}{aaa_battery}{Resource -- \textbf{Power}}{}{ aaa\_battery}
+
+
+\clearpage
+\card{purple}{The power of the sun}{}{the_power_of_the_sun}{Resource -- \textbf{Power}}{You can channel all the power irradiated by the sun into supporting your robotic system.
+}{$3.828 \times {10}^{26}$ W the\_power\_of\_the\_sun}
+\card{purple}{1 watt}{}{power}{Resource -- \textbf{Power}}{}{1 W watt}
+\card{white}{}{}{research_card}{}{}{ research\_card}
+
+
+
+\card{indigo}{Name recognition}{}{name_recognition}{Rewards}{Each of these cards count as a positive reviewer.
+}{ name\_recognition}
+\card{indigo}{Name recognition}{}{name_recognition2}{Rewards}{Each of these cards count as a positive reviewer.
+}{ name\_recognition2}
+\card{indigo}{Bitterness}{}{bitterness}{Rewards}{Your negative opinion as a reviewer counts double.
+}{ bitterness}
+
+
+
+\card{indigo}{Bitterness}{}{bitterness2}{Rewards}{Your negative opinion as a reviewer counts double.
+}{ bitterness2}
+\card{blue}{Military-grade Fibre-Optic IRU}{}{astrix_1090}{Resource -- \textbf{Sensing}}{The Astrix 1090 is a 3-axis fiber-optic gyroscope produced by Airbus.  It is designed to work for >20 years in small satellites. 
+}{12 W; 4.2 kg; 100,000 USD astrix\_1090}
+\card{blue}{GelSight}{}{gelsight}{Resource -- \textbf{Sensing}}{An image-based tactile sensor that works by sensing the deformation of a thin film in contact with the object.
+}{ gelsight}
+
+
+\clearpage
+\card{blue}{Parabolic mirror}{}{parabolic_mirror}{Resource -- \textbf{Sensing}}{Turns a camera into an omnidirectional camera.}{? W; ? USD parabolic\_mirror}
+\card{blue}{Artificial Ocelli sensor}{}{ocelli}{Resource -- \textbf{Sensing}}{}{ ocelli}
+\card{blue}{Sick LMS511 Range Finder}{}{Sick_LMS511_11100_Lite}{Resource -- \textbf{Sensing}}{A 2D, 190 deg, range finder with 0.25 deg resolution per ray. The maximum range is 80m.}{22 W; 3.7 kg; 7000 USD Sick\_LMS511\_11100\_Lite}
+
+
+
+\card{blue}{Odour sensor}{}{unknown}{Resource -- \textbf{Sensing}}{}{ odour\_sensor}
+\card{blue}{CURVACE sensor}{}{CURVACE}{Resource -- \textbf{Sensing}}{}{ CURVACE}
+\card{blue}{Sonar}{}{sonar}{Resource -- \textbf{Sensing}}{}{ sonar}
+
+
+
+\card{blue}{Cheap IMU}{}{cheap_gyro}{Resource -- \textbf{Sensing}}{}{9.90 USD cheap\_gyro}
+\card{blue}{Bump Sensor}{}{bump_sensor}{Resource -- \textbf{Sensing}}{}{? W; ? USD bump\_sensor}
+\card{blue}{Pressure Sensor}{}{pressure_sensor_PX302}{Resource -- \textbf{Sensing}}{A pressure to voltage transducer.}{? W; 235 USD pressure\_sensor\_PX302}
+
+
+\clearpage
+\card{blue}{Thermal imaging camera}{}{thermal_imaging_camera}{Resource -- \textbf{Sensing}}{}{ thermal\_imaging\_camera}
+\card{blue}{Earth GPS Receiver}{}{earth_gps_receiver}{Resource -- \textbf{Sensing}}{}{ earth\_gps\_receiver}
+\card{blue}{Compass}{}{compass}{Resource -- \textbf{Sensing}}{}{? W; ? USD compass}
+
+
+
+\card{blue}{Velodyne HDL-64E}{}{velodyne_HDL_64E}{Resource -- \textbf{Sensing}}{}{60 W; 29 lbs; 6000 USD velodyne\_HDL\_64E}
+\card{blue}{Linear Odometer}{}{unknown}{Resource -- \textbf{Sensing}}{}{? W; ? USD linear\_odometer}
+\card{blue}{Hokuyo range-finder}{}{hokuyo_urg}{Resource -- \textbf{Sensing}}{A reliable sensor. Maximum range is 8m.}{5 W; 2000 USD hokuyo\_urg}
+
+
+
+\card{blue}{1-point Range Finder}{}{unknown}{Resource -- \textbf{Sensing}}{}{? W; ? USD 1point\_range\_finder}
+\card{blue}{Kinect}{}{kinect}{Resource -- \textbf{Sensing}}{}{ kinect}
+\card{blue}{Camera}{}{camera}{Resource -- \textbf{Sensing}}{}{? W; ? USD camera}
+
+
+\clearpage
+\card{blue}{Microphone}{}{microphone}{Resource -- \textbf{Sensing}}{}{? W; ? USD microphone}
+\card{blue}{Photoreceptor}{}{photodiode}{Resource -- \textbf{Sensing}}{}{ photodiode}
+\card{blue}{Dynamic Vision Sensor}{}{dvs}{Resource -- \textbf{Sensing}}{}{ dvs}
+
+
+
+\card{white}{Goal posts have moved}{}{goal_posts}{Special}{You can change the current goal by changing either the \emph{Task} or the \emph{Environment} card.
+\\[1.2mm]\textit{``We must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that.''
+}}{ goal\_posts}
+\card{white}{3D printer}{}{3dprinter}{Special}{You can 3D print a piece for your robot.
+}{ 3dprinter}
+\card{white}{The Power of Friendship}{}{the_power_of_friendship}{Special}{Use a card belonging to somebody else.}{ the\_power\_of\_friendship}
+
+
+
+\card{white}{A Russian did it in the 1960s}{}{russian}{Special}{The paper under review is rejected.
+}{ russian}
+\card{white}{Do research!}{}{do_research}{Special}{Create a new card using one of the empty cards. Put it randomly in the deck.
+}{ do\_research}
+\card{magenta}{Sort fruits by color}{}{sort_fruits}{Task}{}{ sort\_fruits}
+
+
+\clearpage
+\card{magenta}{Find all Easter Eggs}{}{find_easter_eggs}{Task}{}{ find\_easter\_eggs}
+\card{magenta}{Assemble IKEA furniture}{}{assemble_ikea}{Task}{}{ assemble\_ikea}
+\card{magenta}{Perform surgery}{}{surgery}{Task}{}{ surgery}
+
+
+
+\card{magenta}{Rescue all survivors}{}{rescue_survivors}{Task}{}{ rescue\_survivors}
+\card{magenta}{Change diaper}{}{diaper}{Task}{}{ diaper}
+\card{magenta}{Play chess}{}{chess}{Task}{}{ chess}
+
+
+
+\card{magenta}{Track ???}{}{unknown}{Task}{}{ track}
+\card{magenta}{Find and disarm an IED}{}{IED_disposal}{Task}{}{ IED\_disposal}
+\card{yellow}{1 week}{}{time}{Resource -- \textbf{Time}}{1 week to perform the task}{ 1week}
+
+
+\clearpage
+\card{yellow}{1 day}{}{time}{Resource -- \textbf{Time}}{1 day to perform the task}{ 1day}
+\card{yellow}{1 hour}{}{time}{Resource -- \textbf{Time}}{1 hour to perform the task}{ 1hour}
+\card{yellow}{1 year}{}{time}{Resource -- \textbf{Time}}{1 year to perform the task}{ 1year}
+
+
+
+\card{yellow}{All the time in the world}{}{time}{Resource -- \textbf{Time}}{You have all the time in the world to perform the task.}{ all\_the\_time}
+\card{yellow}{Perfect parameter tuning}{}{unknown}{Resource -- \textbf{Data}}{}{ perfect\_parameter\_tuning}
+\card{yellow}{Infinite training data}{}{unknown}{Resource -- \textbf{Data}}{You have infinite training data.}{ infinite\_data}
+
+
+
+\card{yellow}{8000 robot-hours of training data}{}{unknown}{Resource -- \textbf{Data}}{}{ 8000\_hours}
+\card{yellow}{Lazy graduate student}{}{unknown}{Resource -- \textbf{Data}}{The lazy graduate student will only collect 2 hours of training data.}{ lazy\_graduate\_student}
 \end{document}
