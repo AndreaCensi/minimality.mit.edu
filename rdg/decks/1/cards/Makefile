@@ -14,6 +14,9 @@ all: deck.pdf deck_reps.pdf $(CARDS_PNG) $(CARDS_PDF) $(CARDS_JPG)
 %.png: %.pdf
 	convert -density 450 $< $@
 
+%-web.jpg: %-web.pdf
+	convert -density 150 $< $@
+
 %.jpg: %.pdf
 	convert -density 450 $< $@
  
