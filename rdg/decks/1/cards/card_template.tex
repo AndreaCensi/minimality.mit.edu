@@ -57,6 +57,16 @@ drop shadow={shadow xshift=-0.5mm,shadow yshift=-0.5mm,black},
 preaction={drop shadow={shadow xshift=0.3mm,shadow yshift=0.3mm,white!70!black}}
 }}
 
+
+\newcommand{\tightbox}[1]{%
+{%
+\setlength\fboxsep{0pt}%
+\fbox{#1}%
+}%
+}
+
+\renewcommand{\tightbox}[1]{#1}
+
 \newcommand{\card}[7]{%
 \begin{tikzpicture}
     \fill[black,rounded corners=\rounding] (0,0) rectangle (\cardwidth,\cardheight); 
@@ -126,7 +136,7 @@ preaction={drop shadow={shadow xshift=0.3mm,shadow yshift=0.3mm,white!70!black}}
     \node[anchor=east] at (\cardwidth-\backgroundthickness-\framethickness+0.5mm,\topbarbottom+3.5mm) {\raisebox{0pt}[\height][0pt]{\bf #3}};
     \node[anchor=south west] at (\backgroundthickness,\attbarbottom+1mm) {\raisebox{0pt}[\height][0pt]{#5}};    
 
-    \node[anchor=north west,text width=\cardwidth-2*\backgroundthickness-2*\framethickness-2mm,font=\footnotesize] at (\backgroundthickness+\framethickness,\attbarbottom-0.5mm) {#6};
+    \node[anchor=north west,text width=\cardwidth-2*\backgroundthickness-2*\framethickness-2mm,font=\footnotesize] at (\backgroundthickness+\framethickness,\attbarbottom-0.5mm) {\tightbox{\begin{minipage}[t][2.6cm]{4.9cm}#6\end{minipage}}};
 
     \node[anchor=south east,font=\tiny] at (\cardwidth-\backgroundthickness-\framethickness,\backgroundthickness+\framethickness) {\raisebox{0pt}[\height][0pt]{\bf #7}};
 
