@@ -1,0 +1,4 @@
+mcdp {
+  provides budget [USD]
+  budget <= 1 USD
+}
