@@ -1,4 +1,0 @@
-mcdp {
-  provides budget [USD]
-  budget <= 100 USD
-}
