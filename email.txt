@@ -1,0 +1,47 @@
+
+Subject: Come play the (Minimal) Robot Design Game at RSS
+
+
+Dear colleagues: 
+
+Come play the Robot Design Game with us!
+
+It's a mix of Magic The Gathering, Cards Againt Humanity, and Iron Chef.
+
+These are the rules of the game: 
+	http://minimality.mit.edu/rules.pdf
+
+This is the deck with which we will play:
+  	http://minimality.mit.edu/rdg/decks/1/cards/deck.pdf
+
+We will give away some of the professionally-printed decks to some of the winners.
+
+
+The game will take place as part of the workshop on "Minimality and Design Automation".
+See below for the abstract.
+
+Speakers:
+
+	Dan Aukes
+	Aaron Becker
+	Matteo Bianchi / Antonio Bicchi
+	Greg Chirikjian
+	Ron Fearing
+	Sawyer Fuller
+	Ken Goldberg
+	Hadas Kress-Gazit
+	Alberto Rodriguez
+	Daniela Rus
+	Yu Zhang
+	
+
+Simpler robots are better, but it gets complicated. How can computers help us?
+
+The theoretical question of determining the fewest resources necessary to perform a task is practically useful and intellectually deep. This question remains fundamentally open. There are few examples of impossibility results or studies that show a systematic understanding of the relationship between functionality and resources involved in a robotic system. The "functionality --> minimal resources" map is hard to describe, and the resulting optimization problem "given the functionality required, find the feasible designs that use the least resources" is hard to solve.
+This workshop brings together researchers in two emerging areas:
+
+Researchers interested in minimality in robot design, across many different dimensions, including sensing, actuation, computation, and communication.
+Researchers interested in robot design automation, in the sense of automating some parts of the robot design process, including both hardware and software elements.
+This workshop will spur on discussion of these topics individually but will primarily emphasize their interplay. Its goal is to invigorate discussion among the various researchers. The workshop will feature short talks, in which every participant has 10 minutes: 5 minutes to introduce themselves and to show an "incendiary idea" — an idea unlikely to elicit universal agreement in the community, but likely to generate discussion — plus 5 minutes to talk about their work.
+
+
