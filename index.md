@@ -1,16 +1,14 @@
 ---
 css: stylesheets/minimal-css.css
+title: Minimality and Trade-offs in Automated Robot Design
 header-includes:
     - <meta http-equiv="X-UA-Compatible" content="chrome=1">
 ...
 
-Minimality and Trade-offs in Automated Robot Design
-==========================================
-
 ICRA 2016 Proposed Workshop
 ---------------------------
 
-Organizers: [Andrea Censi](http://censi.mit.edu) (MIT), [Dylan
+**Organizers:** [Andrea Censi](http://censi.mit.edu) (MIT), [Dylan
 Shell](http://robotics.cs.tamu.edu/dshell/) (Texas A&M), [Jason
 O'Kane](https://cse.sc.edu/~jokane) (South Carolina), [Hadas
 Kress-Gazit](http://verifiablerobotics.com) (Cornell), [Alexandra
