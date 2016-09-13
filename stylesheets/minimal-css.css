@@ -1,0 +1,28 @@
+* {
+  font-family: sans-serif;
+}
+
+html {
+  max-width: 800px;
+}
+
+body {
+  padding:50px;
+  font-family: sans-serif
+  font-weight:300;
+}
+
+title {
+  display: none;
+}
+
+h1 {
+  color: #a00;
+  margin:0 0 20px;
+  font-size:28px;
+}
+
+h2 {
+  color: #00a;
+  margin:0 0 20px;
+}

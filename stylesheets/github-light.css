@@ -15,6 +15,44 @@
 
 */
 
+* {
+  font-family: sans-serif;
+}
+
+html {
+  max-width: 800px;
+}
+
+body {
+  padding:50px;
+  font-family: sans-serif
+  font-weight:300;
+}
+
+title {
+  display: none;
+}
+
+h1 {
+  color: #a00;
+  margin:0 0 20px;
+  font-size:28px;
+}
+
+h2 {
+  color: #00a;
+  margin:0 0 20px;
+}
+
+.time {
+  text-align: center; width: 8em;
+}
+
+.speaker A { font-weight: bold !important;}
+.title { font-style: italic; }
+td { vertical-align: text-top; }
+table { margin-left: 25px; }
+
 .pl-c /* comment */ {
   color: #969896;
 }
