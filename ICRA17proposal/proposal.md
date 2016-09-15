@@ -1,7 +1,25 @@
 ---
 geometry: margin=1in
-title: ICRA 2017 Workshop Proposal
+header-includes:
+    -   \setlength{\parindent}{16pt}
+    -   \setlength{\emergencystretch}{3em}
+    -   \usepackage{titlesec}
+    -   \titlespacing{\section}{0pt}{-5pt}{-3pt}
+    -   \titlespacing{\title}{0pt}{-5pt}{-3pt}
+    -   \titlespacing{\subsection}{8pt}{0pt}{-3pt}{\Large}
+    -   \titlespacing{\subsubsection}{8pt}{-5pt}{-3pt}
+
 ...
+
+\pagenumbering{gobble}
+
+\begin{centering}
+
+\LARGE{ICRA 2017 Workshop Proposal}
+
+\end{centering}
+
+\normalsize
 
 1. Type and Duration
 --------------------
@@ -16,104 +34,198 @@ Minimality and Trade-offs in Automated Robot Design
 3. Organizers
 -------------
 
-For each organizer, provide: affiliation, address, phone, email, and
-URL.
-
-The organizers should include senior RAS members able to bring their
-experience and their knowledge of the field to bear on the organization
-and operation of the workshop.
-
-Indicate which one of the organizers will be the primary contact person.
-
-All correspondence will be sent to this contact person, who will be
-expected to respond promptly.
+-   Hadas Kress-Gazit
+    -   Associate Professor, Cornell University
+    -   551 Upson Hall, Cornell University, Ithaca, NY USA
+    -   607-255-1592
+    -   hadaskg@cornell.edu
+    -   [http://www.verifiablerobotics.com](http://www.verifiablerobotics.com)
+-   Dylan Shell
+    -   Associate Professor, Texas A&M University
+    -   Department of Computer Science & Engineering
+    -   TAMU 3112, College Station, TX 77843-3112
+    -   dshell@cs.tamu.edu
+    -   [http://robotics.cs.tamu.edu/dshell/](http://robotics.cs.tamu.edu/dshell/)
+-   Jason O'Kane
+    -   Associate Professor, University of South Carolina
+    -   Department of Computer Science and Engineering
+    -   Swearingen Engineering Center 3A58, 315 Main Street, Columbia, SC 29208
+    -   jokane@cse.sc.edu
+    -   [https://cse.sc.edu/~jokane](https://cse.sc.edu/~jokane)
+-   Andrea Censi
+    -   Massachusetts Institute of Technology
+    -   32 Vassar St
+    -   32-D558
+    -   02139 Cambridge, MA
+    -   censi@mit.edu
+    -   [http://censi.mit.edu/](http://censi.mit.edu/)
+-   Alexandra Nilles **(primary contact)**
+    -   University of Illinois
+    -   201 N Goodwin Ave, Urbana, IL 61801
+    -   303-396-7227
+    -   nilles2@illinois.edu
+    -   [http://alexandroid000.github.io/](http://alexandroid000.github.io/)
 
 4. URL
 ------
 
-Organizers are required to maintain a website with information about
-their workshop or tutorial.
-
-The link to this website should be listed here. If possible, this link
-should be active at the time of submission (in this case, the website
-should indicate that it describes a "proposed workshop" or "proposed
-tutorial").
-
-However, organizers may, if they choose, wait until after their proposal
-is accepted before creating the website.
+[http://minimality.mit.edu/](http://minimality.mit.edu/)
 
 5. Abstract
 -----------
 
-A short paragraph that will be used to advertise your event on the ICRA
-2017 website.
+Most fields of engineering are characterized by fundamental trade-offs between
+maximizing performance and minimizing resource usage; robotics is no exception.
+In robot design, trade-offs are distributed among subsystems such as sensing,
+actuation, computation, and power. A mathematical framework to describe these
+trade-offs does not yet exist.
 
---200 WORD MAXIMUM
+The speakers and discussions in this workshop will focus on working toward
+formal representations that make automated reasoning and synthesis possible, and
+enable design choices beyond once-off, ad hoc solutions. The workshop brings
+together roboticists with a variety of backgrounds to start to answer the
+question: “How can computers and software help us navigate the space of design
+decisions?”
+
+The workshop includes both invited speakers and a call for presenters who: (1)
+can share practical examples of resource-constrained robots and their
+performance envelopes; (2) are exploring abstractions and models which have
+promise as foundations for algorithmic design; (3) have novel and unconventional
+ideas for how to tame the computational complexities involved.
+
+The intended outcome of the workshop is a better understanding of how informal
+design decisions, including those exemplified in a custom design card game —
+played and discussed after lunch — can be refined and systematized so as to
+become fit for automation.
 
 6. Content
 ----------
 
-Describe your event in detail. Include a tentative schedule and a list
-of invited speakers (if any), indicating topics and if their
-participation is confirmed or still pending: briefly describe why
-contributed presentations reflect the state of the art. ***These are the
-main information which will be used to review the submission and its
-scientific quality.***
+The workshop schedule is designed to be an engaging and lively event. This
+workshop follows the successful workshop held at RSS 2016[^1], which led to
+extremely interesting discussions[^2]. We will further dive into the question of
+how to automate the robot design process; what can be formalized, what can be
+synthesized and how to reason systematically about trade-offs.
 
---500 WORD MAXIMUM
+[^1]:
+  [http://minimality.mit.edu/RSS2016/rss2016.html](http://minimality.mit.edu/RSS2016/rss2016.html)
+
+[^2]: A summary of the discussions can be read at the URL:
+[http://minimality.mit.edu/RSS2016/wsnotes.pdf](http://minimality.mit.edu/RSS2016/wsnotes.pdf)
+
+The workshop will contain five sessions:
+
+1. **Two morning sessions** (up until lunch): There will be short talks of 10-15
+   minutes, each followed by a 5 minute discussion. Rather than discussions of
+   already published and completed work, priority will be given to interesting
+   thoughts about the future research in this area. We will enforce a
+   presentation format that will ensure lively and engaging presentations. This
+   format will include concise and thought provoking answers to fundamental
+   questions that the organizers will pose.
+2. **First afternoon session**: This session is dedicated to playing the Robot
+   Design Game ([http://robot-design.org](http://robot-design.org)). The game,
+   previously developed on the occasion of the RSS 2016 workshop, is an informal
+   version of the problems we wish to solve. The game will stimulate interaction
+   among participants and set the tone for the subsequent discussion regarding
+   trade-offs and formalisms.
+3. **Second afternoon session**: Additional short talks, in the same format as
+   the morning session.
+4. **Final session**: A final roundtable to discuss interesting ideas that came
+   up during the day. We intend the outcome of the workshop to be a position
+   paper that will be submitted to a top robotics journal; we will structure the
+   roundtable discussion around the main ideas of the position paper and the
+   elements that need to be included in it.
+
+
+### Invited Speakers:
+
+
+-    Magnus Egerstedt (GaTech) [confirmed]
+-    Daniela Rus (MIT)                 [confirmed]
+-    Steve LaValle (UIUC)            [confirmed]
+-    Antonio Bicchi (UniPI)           [confirmed]
+-    Radhika Nagpal (Harvard)    [tentative]
+
+**Open call:** We will have an open call for presentations. Using a web form, we
+will ask prospective speakers to share a brief position statement (2-3
+paragraphs) about their views on the topics to be discussed in the workshop.
+We will select the speakers with the most original and diverse points of
+view, to ensure a lively workshop. We will also bias the selection towards
+junior researchers.
 
 7. Plan to solicit participation
 --------------------------------
 
-Describe how you will advertise and encourage participation in your
-event, particularly from researchers traditionally outside of the
-robotics community (if applicable). Steps that go beyond an email to
-*roboticsworldwide* are encouraged. Estimate the number of participants
-that you expect, and provide a basis for this estimate, such as
-attendance at similar events in past years. If you have organized
-similar events in the past, list them and provide the estimated
-attendance at each.
+In addition to the usual methods (robotics-worldwide, direct email invitations,
+etc.) for soliciting participation in workshops, we will distribute a number of
+decks of Robot Design Game cards, including special cards advertising the time,
+place, and content of the workshop, to prospective attendees.  This approach was
+observed to be effective for the RSS 2016 workshop, and could be carried out
+particularly effectively if the proposed workshop were held after the main ICRA
+conference.
 
---500 WORD MAXIMUM
+**Estimated number of attendees:** The first workshop on this topic that took
+place at RSS 2016 attracted 40 participants. Due to the relative size of ICRA
+compared to RSS, we expect an audience of 120 or more.
+
+**Similar events organized in the past:** This is the list of workshops
+previously organized by the organizers, along with estimated peak attendance:
+
+-   Censi, Shell, O'Kane
+    -   RSS 2016 - Minimality and Design Automation (40)
+-   Censi
+    -   ICRA 2016 - Task Driven Representations (150)
+    -   RSS 2015 - The Big Questions in Robotics (90)
+    -   ICRA 2015 - Advances in Sensorimotor Learning (150)
+    -   ICRA 2015 - Innovative Sensing for Robotics (100)
+-   Shell, O’Kane
+    -   CASE 2016 - Workshop on Multi-Robot Systems in Automation: Topics in Planning and Control (30)
+-   Shell
+    -   AAAI 2015 - Research Issues at the Boundary of AI and Robotics (150)
+    -   RSS 2015 - Negative results in experimental robotics: Learning the right
+        lessons from robots (15)
+    -   IROS 2014 - The future of multiple-robot research and its multiple identities (50)
+    -   AAAI Spring Symposium 2011 - Multi-Robot Systems and Physical Data Structures (15)
+-   Kress-Gazit
+    -   5 workshops on Formal Methods for Robotics (ICRA 2009, 2010, CAV 2011,
+        RSS 2013, 2014) Attendance at these workshops grew over the years with
+        approximately 40-50 participants in the later conferences (RSS).
+
 
 8. Plan to encourage interaction among participants
 ---------------------------------------------------
 
-Describe how you will promote active discussion. Steps that result in
-participants staying for the entire event and that increase the level of
-interaction between established experts and early-career researchers are
-particularly welcome.
+One session of the workshop is dedicated to playing the Robot Design Game
+([http://robot-design.org](http://robot-design.org)). This is a custom card game
+created by the organizers in the occasion of a previous workshop (during RSS
+2016) and further refined since. This card game is played in small groups (5-6
+people). We will make sure that each group contains a balance of senior
+researchers, early career researchers, and students.
 
---500 WORDMAXIMUM
+As we have observed during the RSS workshop, the game greatly stimulates
+interaction among participants. During this workshop, we plan to use the great
+interactions enabled by the game to further refine the game and define a
+problem space that can be used to make actual progress on the topic. There will
+be a group discussion after the game, which will integrate the topics raised in
+the morning talks with insights from the game, further encouraging interaction.
 
 9. Dissemination
 ----------------
 
-Describe briefly a dissemination plan of the outcome of the workshop. Solicitation of papers is encouraged by workshop organizers. These papers cannot take the form of conference paper submissions to be associated to the workshop. While they may be reviewed by the organizers prior to acceptance, they cannot be confused with regular, peer-reviewed, papers. RAS workshop papers cannot be published as peer reviewed papers. Specify the topics and why they would result compelling in providing a wide view of the state of the art. Paper Template downloadable on the IEEE RAS website.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Presentation material: We will post all presentation materials and notes on a
+publicly available website (see the notes and slides from the RSS 2016 workshop
+at
+[http://minimality.mit.edu/RSS2016/rss2016.html](http://minimality.mit.edu/RSS2016/rss2016.html)).
 
-Creation of an online accessible archive for discussions, media and
-related articles is strongly encouraged: describe the process and how
-access may be provided to participants and ICRA2017 attendees.
-
-Organization of special issue in Tier 1 peer reviewed journals is
-encouraged. Letter of support from Editors in Chief will be strongly
-considered.
-
---500 WORD MAXIMUM
+Position paper: The goal of the workshop is to obtain novel, automated,
+systematic approaches to robot design and, therefore, a special issue in an
+established journal is premature. Instead, the organizers will coordinate with
+the speakers a position paper that synthesize the point of views described in
+the workshop. Target journals could be: Robotics & Automation Letters; Nature
+Robotics; and Robotics & Automation Magazine.
 
 10. Equipment
 -------------
 
-A computer projector and screen will be provided. List all other
-required equipment, such as poster stands (how many), an easel and
-writing pad, etc.
-
-11. Support of an IEEE RAS Technical Committee
-----------------------------------------------
-
-If your workshop is in conjunction with an IEEE RAS Technical Committee
-(TC), please indicate that, and provide the contact information and a
-brief (one sentence) statement of support from a TC chair. The full list
-of IEEE RAS TC's is available here:
-<http://www.ieee-ras.org/technical-committees>.
+The workshop requires **tables** to play the card game. The organizers will
+provide a suitable number of custom-printed decks of the game.
