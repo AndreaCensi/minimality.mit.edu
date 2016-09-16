@@ -4,6 +4,7 @@ header-includes:
     -   \setlength{\parindent}{16pt}
     -   \setlength{\emergencystretch}{3em}
     -   \usepackage{titlesec}
+    -   \usepackage{graphicx}
     -   \titlespacing{\section}{0pt}{-5pt}{-3pt}
     -   \titlespacing{\title}{0pt}{-5pt}{-3pt}
     -   \titlespacing{\subsection}{8pt}{0pt}{-3pt}{\Large}
@@ -15,16 +16,18 @@ header-includes:
 
 \begin{centering}
 
-\LARGE{ICRA 2017 Workshop Proposal}
+\LARGE{Minimality and Trade-offs in Automated Robot Design}
 
 \end{centering}
+
+\vspace{0.3cm}
 
 \normalsize
 
 1. Type and Duration
 --------------------
 
-Full-day
+Full-day workshop
 
 2. Title
 --------
@@ -208,6 +211,20 @@ interactions enabled by the game to further refine the game and define a
 problem space that can be used to make actual progress on the topic. There will
 be a group discussion after the game, which will integrate the topics raised in
 the morning talks with insights from the game, further encouraging interaction.
+
+Some sample cards from the Robot Design Game are below. Participants must
+synthesize a robot from a randomly selected hand of actuators, sensors, power
+resources, computation resources, etc. The robot must complete a randomly chosen
+task in a random environment, such as "disarm an IED on Mars."
+
+\begin{centering}
+\includegraphics[width=0.25\textwidth]{fpga-front.pdf}
+\includegraphics[width=0.25\textwidth]{segway_base-front.pdf}
+\includegraphics[width=0.25\textwidth]{cheap_gyro-front.pdf}
+\includegraphics[width=0.25\textwidth]{power_tether-front.pdf}
+\end{centering}
+
+
 
 9. Dissemination
 ----------------
