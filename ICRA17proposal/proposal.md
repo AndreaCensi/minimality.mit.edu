@@ -220,10 +220,10 @@ random environment, such as "disarm an IED on Mars."
 \vspace{0.5cm}
 
 \begin{centering}
-\includegraphics[width=0.25\textwidth]{fpga-front.pdf}
-\includegraphics[width=0.25\textwidth]{segway_base-front.pdf}
-\includegraphics[width=0.25\textwidth]{cheap_gyro-front.pdf}
-\includegraphics[width=0.25\textwidth]{power_tether-front.pdf}
+\includegraphics[width=0.25\textwidth]{fpga.pdf}
+\includegraphics[width=0.25\textwidth]{segway.pdf}
+\includegraphics[width=0.25\textwidth]{power.pdf}
+\includegraphics[width=0.25\textwidth]{gyro.pdf}
 \end{centering}
 
 
