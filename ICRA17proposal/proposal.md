@@ -43,7 +43,7 @@ Minimality and Trade-offs in Automated Robot Design
     -   607-255-1592
     -   hadaskg@cornell.edu
     -   [http://www.verifiablerobotics.com](http://www.verifiablerobotics.com)
--   Dylan Shell
+-   Dylan Shell **(primary contact)**
     -   Associate Professor, Texas A&M University
     -   Department of Computer Science & Engineering
     -   TAMU 3112, College Station, TX 77843-3112
@@ -62,7 +62,7 @@ Minimality and Trade-offs in Automated Robot Design
     -   02139 Cambridge, MA
     -   censi@mit.edu
     -   [http://censi.mit.edu/](http://censi.mit.edu/)
--   Alexandra Nilles **(primary contact)**
+-   Alexandra Nilles
     -   University of Illinois
     -   201 N Goodwin Ave, Urbana, IL 61801
     -   303-396-7227
