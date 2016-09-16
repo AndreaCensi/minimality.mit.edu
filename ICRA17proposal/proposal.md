@@ -212,10 +212,12 @@ problem space that can be used to make actual progress on the topic. There will
 be a group discussion after the game, which will integrate the topics raised in
 the morning talks with insights from the game, further encouraging interaction.
 
-Some sample cards from the Robot Design Game are below. Participants must
-synthesize a robot from a randomly selected hand of actuators, sensors, power
-resources, computation resources, etc. The robot must complete a randomly chosen
-task in a random environment, such as "disarm an IED on Mars."
+Some sample cards from the Robot Design Game are below. Participants must design
+a robot from a randomly selected hand of actuators, sensors, power resources,
+computation resources, etc. The robot must complete a randomly chosen task in a
+random environment, such as "disarm an IED on Mars."
+
+\vspace{0.5cm}
 
 \begin{centering}
 \includegraphics[width=0.25\textwidth]{fpga-front.pdf}
