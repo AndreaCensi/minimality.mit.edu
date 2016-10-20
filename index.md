@@ -52,7 +52,7 @@ become fit for automation.
 Related Materials
 -----------------
 
-### Minimality & Design Automation: Workshop at RSS 2017
+### Minimality & Design Automation: Workshop at RSS 2016
 
 [See here](RSS2016/rss2016.html) for the predecessor of this workshop at RSS
 2016.
