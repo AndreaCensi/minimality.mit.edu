@@ -5,11 +5,10 @@ header-includes:
     - <meta http-equiv="X-UA-Compatible" content="chrome=1">
 ...
 
-ICRA 2017 Proposed Workshop
----------------------------
+RSS 2017 Proposed Workshop
+--------------------------
 
-**Organizers:** [Andrea Censi](http://censi.mit.edu) (MIT), [Dylan
-Shell](http://robotics.cs.tamu.edu/dshell/) (Texas A&M), [Jason
+**Organizers:** [Andrea Censi](http://censi.mit.edu) (MIT), [Jason
 O'Kane](https://cse.sc.edu/~jokane) (South Carolina), [Hadas
 Kress-Gazit](http://verifiablerobotics.com) (Cornell), [Alexandra
 Nilles](http://alexandroid000.github.io/index.html) (UIUC)
