@@ -5,8 +5,8 @@ header-includes:
     - <meta http-equiv="X-UA-Compatible" content="chrome=1">
 ...
 
-RSS 2017 Proposed Workshop
---------------------------
+RSS 2017 Workshop
+-----------------
 
 **Organizers:** [Andrea Censi](http://censi.mit.edu) (MIT), [Jason
 O'Kane](https://cse.sc.edu/~jokane) (South Carolina), [Hadas
