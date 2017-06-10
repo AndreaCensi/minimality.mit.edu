@@ -8,7 +8,7 @@ header-includes:
 RSS 2017 Workshop
 -----------------
 
-**Organizers:** [Andrea Censi](http://censi.mit.edu) (MIT), [Jason
+**Organizers:** [Andrea Censi](http://censi.science) (ETHZ/nuTonomy), [Jason
 O'Kane](https://cse.sc.edu/~jokane) (South Carolina), [Hadas
 Kress-Gazit](http://verifiablerobotics.com) (Cornell), [Alexandra
 Nilles](http://alexandroid000.github.io/index.html) (UIUC)
