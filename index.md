@@ -13,6 +13,12 @@ O'Kane](https://cse.sc.edu/~jokane) (South Carolina), [Hadas
 Kress-Gazit](http://verifiablerobotics.com) (Cornell), [Alexandra
 Nilles](http://alexandroid000.github.io/index.html) (UIUC)
 
+Date/Location
+-------------
+
+-   Sunday, July 16 (full day workshop)
+-   location TBA
+
 Call for Speakers
 -----------------
 
@@ -60,6 +66,26 @@ The intended outcome of the workshop is a better understanding of how informal
 design decisions, including those exemplified in a custom design card game —
 played and discussed after lunch — can be refined and systematized so as to
 become fit for automation.
+
+### Guiding questions
+
+1. What would an ideal automated robot design process look like? What is the role
+of human interaction with the tool? What techniques can we use from formal
+methods or software engineering and human-computer interaction? The broader
+design community? What is there to learn from the "maker" movement?
+2. How can we parametrize (or otherwise abstract) robotic components,to avoid
+hand-maintaining large component “libraries”? What are the pros and cons of
+modular robotic components in automating design?
+3. What are examples of robots achieving tasks with minimal resources? How can
+these examples inform automatic design?
+4. Are sensing, actuation, computation, communication and power the correct
+categories for formalizing robotic resources? What are some first steps toward
+formalizing resource trade-offs in robot design?
+5. What are some interesting existing methods for formal specification of robot
+functionality and task structure? What are the shortcomings of these methods?
+6. What question is missing from this list?
+
+
 
 Related Materials
 -----------------
