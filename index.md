@@ -8,7 +8,7 @@ header-includes:
 RSS 2017 Workshop
 -----------------
 
-**Organizers:** [Andrea Censi](http://censi.mit.edu) (MIT), [Jason
+**Organizers:** [Andrea Censi](http://censi.science) (ETHZ/nuTonomy), [Jason
 O'Kane](https://cse.sc.edu/~jokane) (South Carolina), [Hadas
 Kress-Gazit](http://verifiablerobotics.com) (Cornell), [Alexandra
 Nilles](http://alexandroid000.github.io/index.html) (UIUC)
@@ -23,14 +23,14 @@ Call for Speakers
 -----------------
 
 We are seeking speakers from a broad range of backgrounds to give 10-15 minute
-talks on the subject of the workshop! If interested, [fill out the position
+talks on the subject of the workshop. If interested, [fill out the position
 statement form
 here](https://docs.google.com/forms/d/e/1FAIpQLScltw1_U4jhXlZnhizx-tObBHE-vJM2XBLZ1pvh6GAuv09AZA/viewform?usp=sf_link).
 You only need to write 2-3 paragraphs of text **total** in the position
-statement!
+statement.
 
 Speakers who are chosen will get to become a card in the Robot Design Game
-(described below), and will get two free decks of the game!
+(described below), and will get two free decks of the game.
 
 Description
 -----------
