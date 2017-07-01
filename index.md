@@ -3,6 +3,7 @@ css: stylesheets/minimal-css.css
 title: Minimality and Trade-offs in Automated Robot Design
 header-includes:
     - <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    - <meta name="google-site-verification" content="5mklLA9upjJM1mkMEk0-Yk6PoEsTu5dH_BbPWdxTieM" />
 ...
 
 RSS 2017 Workshop
