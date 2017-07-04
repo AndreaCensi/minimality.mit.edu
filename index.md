@@ -19,18 +19,28 @@ Date/Location
 -   Sunday, July 16 (full day workshop)
 -   location TBA
 
-Call for Speakers
------------------
+Schedule
+--------
 
-We are seeking speakers from a broad range of backgrounds to give 10-15 minute
-talks on the subject of the workshop. If interested, [fill out the position
-statement form
-here](https://docs.google.com/forms/d/e/1FAIpQLScltw1_U4jhXlZnhizx-tObBHE-vJM2XBLZ1pvh6GAuv09AZA/viewform?usp=sf_link).
-You only need to write 2-3 paragraphs of text **total** in the position
-statement.
-
-Speakers who are chosen will get to become a card in the Robot Design Game
-(described below), and will get two free decks of the game.
+Time                Speaker/Activity
+----                ----------------
+**9:30-9:45**       Andrea Censi, *Introductory Remarks*
+**9:45-10:00**      [Ankhur Mehta](https://uclalemur.com/)
+**10:00-10:15**     [Andrew Spielberg](http://www.andrewspielberg.com/)
+**10:15-10:30**     [Amy LaViers](http://radlab.mechse.illinois.edu/)
+**10:30-11:00**     *Break*
+**11:00-11:15**     [Stelian Coros](http://www.cs.cmu.edu/~scoros/)
+**11:15-11:30**     [Sehoon Ha](http://sehoonha.com/)
+**11:30-11:45**     Mathew Halm
+**11:45-12:00**     Jason Ziglar
+**12:00-12:15**     [Kirstin Petersen](http://cei.ece.cornell.edu/)
+**12:30-1:30**      *Lunch*
+**1:30-2:00**       Reconvene from lunch, form groups for Robot Design Game
+**2:00-3:00**       Explanation of game, play game
+**3:00-3:30**       *Break*
+**3:30-4:00**       Hadas Kress-Gazit, *Group Discussion and Planning Next Steps*
+**4:00-4:45**       *Breakout discussions*
+**4:45-5:30**       *Report and discuss breakout discussions*
 
 Description
 -----------

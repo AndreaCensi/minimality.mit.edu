@@ -26,3 +26,7 @@ h2 {
   color: #00a;
   margin:0 0 20px;
 }
+
+td {
+    padding: 5px 10px;
+}
