@@ -3,9 +3,12 @@
 }
 
 html {
-  max-width: 800px;
+  /*max-width: 800px;*/
 }
 
+p, ul {
+    max-width: 40em;
+}
 body {
   padding:50px;
   font-family: sans-serif
@@ -19,7 +22,7 @@ title {
 h1 {
   color: #a00;
   margin:0 0 20px;
-  font-size:28px;
+  font-size:40px;
 }
 
 h2 {
@@ -29,4 +32,8 @@ h2 {
 
 td {
     padding: 5px 10px;
+}
+
+#container A {
+text-decoration: none;
 }
