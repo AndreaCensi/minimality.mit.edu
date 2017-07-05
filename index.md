@@ -130,7 +130,8 @@ Time                Speaker/Activity
 **11:15-11:30**     [Sehoon Ha](http://sehoonha.com/)
 **11:30-11:45**     Mathew Halm
 **11:45-12:00**     Jason Ziglar
-**12:00-12:15**     [Kirstin Petersen](http://cei.ece.cornell.edu/)
+**12:00-12:15**     [Matt Carney](http://www.matthematic.com/)
+**12:15-12:30**     [Kirstin Petersen](http://cei.ece.cornell.edu/)
 **12:30-1:30**      *Lunch*
 **1:30-2:00**       Reconvene from lunch, form groups for the [Robot Design Game][RDG]
 **2:00-3:00**       Alli Nilles - Explanation of the [Robot Design Game][RDG], followed by the game tournament
