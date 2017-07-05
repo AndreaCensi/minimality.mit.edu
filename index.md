@@ -26,7 +26,7 @@ We are excited to invite you to the
 [rss17]: http://www.roboticsconference.org
 
 This workshop follows the successful [first edition in 2016][ws16].
-That is the workshop that originated the [The Robot Design Game][RDG],
+That is the workshop that originated [The Robot Design Game][RDG],
 a **card game** which seeks to explore the tradeoffs in resource
 constraints inherent in robot design problems. This year, we have an
 improved workshop format, and improved game as well!
@@ -46,16 +46,29 @@ The workshop is divided in three sessions:
   statements. This allowed us to have a very diverse range of backgrounds - from students to professors.
   You can read the [preliminary statements in this Google Doc][statements].
 
-* **Play the game**:
+* **Robot Design Game tournament**:
   During the third session (first half of the afternoon), it's
   play time! We will play the [Robot Design Game][RDG].
   **We will gift 8 copies of the game** to the winners of the tournament.
+
+<p class='help'>Please contact us if you already know how to play the game and want
+  to be an "associate editor" in the tournament.</p>
 
 * **Break up groups**:
   During the fourth session (second half of the afternoon),
   we will break into groups. Each group will think about one specific
   question of topic that was created in the morning, and then, later
   we will report back.
+
+<p class='help'>Please contact us if you wish to be a group leader for this part.</p>
+
+<style>
+.help {
+    color: darkred;
+    /*margin-left: 20em;
+    width: 40em;*/
+}
+</style>
 
 Later the organizers will edit the materials produced into a position statement.
 
