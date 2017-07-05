@@ -1,0 +1,120 @@
+
+[meetings] RSS 2017: Come play the Robot Design Game, and help us figure out the corresponding science
+
+
+Dear colleagues,
+
+We are excited to invite you to the
+
+    RSS 2017 workshop on
+
+    Minimality and Trade-offs in Automated Robot Design
+
+    full day workshop, on Sunday, July 16.
+
+    http://minimality.mit.edu/
+
+This workshop follows the successful first edition in 2016.
+That is the workshop that originated The Robot Design Game,
+a card game which seeks to explore the tradeoffs in resource
+constraints inherent in robot design problems. The game is a
+mix of  Iron Chef, Magic The Gathering, Cards Against
+Humanity, Texas Hold'em, robots, and peer review.
+
+This year, we have an improved format, and improved game as
+well, with 120 new cards in the deck! You can see the new
+deck and read the rules on this site:
+http://robot-design.org/
+
+This is a special workshop. Rather than making the workshop
+a "mini conference" on a narrow established topic, we sought
+to make it an opportunity to think broadly about some new
+interesting science to come.
+
+The workshop is divided in three parts:
+
+*Short Talks*
+
+During the first and second morning session, there is a
+sequence of short talks about the guiding questions of the
+workshop. The presenters were selected based on their
+preliminary statements (which you can read online). This
+allowed us to have a very diverse range of backgrounds.
+
+*Robot Design Game tournament*
+
+In the afternoon, it's play time! We will play a tournament
+of the Robot Design Game. We will gift 8 copies of the game
+to the winners. (By the way, this year the game comes with
+luxury 100% plastic cards and a premium box.)
+
+*Break up groups*
+
+During the fourth session (second half of the afternoon), we
+will break into groups. Each group will think about one
+specific question or topic, and the resulting material will
+be edited into a position statement.
+
+You can see the schedule and other details at the site
+    http://minimality.mit.edu/.
+
+For everything about the Robot Design Game, please see
+   http://robot-design.org/.
+
+
+Workshop Description
+--------------------
+
+Most fields of engineering are characterized by fundamental
+trade-offs between maximizing performance and minimizing
+resource usage; robotics is no exception. In robot design,
+trade-offs are distributed among subsystems such as sensing,
+actuation, computation, and power. A mathematical framework
+to describe these trade-offs does not yet exist.
+
+The speakers and discussions in this workshop will focus on
+working toward formal representations that make automated
+reasoning and synthesis possible, and enable design choices
+beyond once-off, ad hoc solutions.
+
+The workshop brings together roboticists with a variety of
+backgrounds to start to answer the question:
+
+  "How can computers and software help us navigate
+   the space of design decisions?"
+
+Here are some specific questions to discuss: (see online
+for the preliminary statements by the speakers)
+
+1. What would an ideal automated robot design process look
+like? What is the role of human interaction with the tool?
+What techniques can we use from formal methods or software
+engineering and human-computer interaction? The broader
+design community? What is there to learn from the "maker"
+movement?
+
+2. How can we parametrize (or otherwise abstract) robotic
+components, to avoid hand-maintaining large component
+“libraries”? What are the pros and cons of modular robotic
+components in automating design?
+
+3. What are examples of robots achieving tasks with minimal
+resources? How can these examples inform automatic design?
+
+4. Are sensing, actuation, computation, communication and
+power the correct categories for formalizing robotic
+resources? What are some first steps toward formalizing
+resource trade-offs in robot design?
+
+5. What are some interesting existing methods for formal
+specification of robot functionality and task structure?
+What are the shortcomings of these methods?
+
+6. What question is missing from this list?
+
+~~~
+
+We hope to see you there!
+
+(on behalf of co-organizers Hadas Kress-Gazit, Alexandra
+"Alli" Nilles, and Jason O'Kane)

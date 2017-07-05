@@ -37,7 +37,7 @@ mainstream idea of what a "workshop" should be, we sought to make this
 an opportunity to think broadly about some new interesting science to
 come.
 
-The workshop is divided in three sessions:
+The workshop is divided in three parts:
 
 * **Short Talks**:
   During the morning session, there is a sequence
@@ -57,7 +57,7 @@ The workshop is divided in three sessions:
 * **Break up groups**:
   During the fourth session (second half of the afternoon),
   we will break into groups. Each group will think about one specific
-  question of topic that was created in the morning, and then, later
+  question or topic inspired by the morning talks, and then, later
   we will report back.
 
 <p class='help'>Please contact us if you wish to be a group leader for this part.</p>
@@ -141,11 +141,8 @@ Time                Speaker/Activity
 
 The discussions will be moderated by Jason O'Kane.
 
-Guiding questions for the workshop {#qs}
----------------------------------------
-
-*See [here for the preliminary statements][statements] written
-by the speakers.*
+Workshop motivation
+--------------------
 
 Most fields of engineering are characterized by fundamental trade-offs between
 maximizing performance and minimizing resource usage; robotics is no exception.
@@ -179,13 +176,17 @@ design decisions, including those exemplified in a custom design card game —
 played and discussed after lunch — can be refined and systematized so as to
 become fit for automation.
 
-### Guiding questions
+### Guiding questions for the workshop {#qs}
+
+*See [here for the preliminary statements][statements] written
+by the speakers.*
+
 
 1. What would an ideal automated robot design process look like? What is the role
 of human interaction with the tool? What techniques can we use from formal
 methods or software engineering and human-computer interaction? The broader
 design community? What is there to learn from the "maker" movement?
-2. How can we parametrize (or otherwise abstract) robotic components,to avoid
+2. How can we parametrize (or otherwise abstract) robotic components, to avoid
 hand-maintaining large component “libraries”? What are the pros and cons of
 modular robotic components in automating design?
 3. What are examples of robots achieving tasks with minimal resources? How can
