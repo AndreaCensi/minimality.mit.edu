@@ -1,6 +1,6 @@
 ---
 css: stylesheets/minimal-css.css
-# title: Minimality and Trade-offs in Automated Robot Design
+title: Minimality and Trade-offs in Automated Robot Design
 header-includes:
     - <meta http-equiv="X-UA-Compatible" content="chrome=1">
     - <meta name="google-site-verification" content="5mklLA9upjJM1mkMEk0-Yk6PoEsTu5dH_BbPWdxTieM" />
@@ -99,22 +99,25 @@ th {text-align: center;}
 h2 { clear: both;}
 </style>
 <div id='container'>
-<a href="http://robot-design.org/decks/4/coros.html"><img class='speaker-card' src="speakers/coros-front_frame.jpg"/></a>
-<a href="http://robot-design.org/decks/4/halm.html"><img class='speaker-card' src="speakers/halm-front_frame.jpg"/></a>
-<a href="http://robot-design.org/decks/4/laviers.html">
+<a href="http://robot-design.org/decks/4/cards/coros.html"><img class='speaker-card' src="speakers/coros-front_frame.jpg"/></a>
+<a href="http://robot-design.org/decks/4/cards/halm.html"><img class='speaker-card' src="speakers/halm-front_frame.jpg"/></a>
+<a href="http://robot-design.org/decks/4/cards/laviers.html">
 <img class='speaker-card' src="speakers/laviers-front_frame.jpg"/>
 </a>
-<a href="http://robot-design.org/decks/4/mehta.html">
+<a href="http://robot-design.org/decks/4/cards/mehta.html">
 <img class='speaker-card' src="speakers/mehta-front_frame.jpg"/>
 </a>
-<a href="http://robot-design.org/decks/4/petersen.html">
+<a href="http://robot-design.org/decks/4/cards/petersen.html">
 <img class='speaker-card' src="speakers/petersen-front_frame.jpg"/>
 </a>
-<a href="http://robot-design.org/decks/4/spielberg.html">
+<a href="http://robot-design.org/decks/4/cards/spielberg.html">
 <img class='speaker-card' src="speakers/spielberg-front_frame.jpg"/>
 </a>
-<a href="http://robot-design.org/decks/4/ziglar.html">
+<a href="http://robot-design.org/decks/4/cards/ziglar.html">
 <img class='speaker-card' src="speakers/ziglar-front_frame.jpg"/>
+</a>
+<a href="http://robot-design.org/decks/4/cards/ha.html">
+<img class='speaker-card' src="speakers/ha-front_frame.jpg"/>
 </a>
 </div>
 
