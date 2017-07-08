@@ -133,7 +133,8 @@ Time                Speaker/Activity
 **11:15-11:30**     [Sehoon Ha](http://sehoonha.com/)
 **11:30-11:45**     Mathew Halm
 **11:45-12:00**     Jason Ziglar
-**12:00-12:15**     [Kirstin Petersen](http://cei.ece.cornell.edu/)
+**12:00-12:15**     [Matt Carney](http://www.matthematic.com/)
+**12:15-12:30**     [Kirstin Petersen](http://cei.ece.cornell.edu/)
 **12:30-1:30**      *Lunch*
 **1:30-2:00**       Reconvene from lunch, form groups for the [Robot Design Game][RDG]
 **2:00-3:00**       Alli Nilles - Explanation of the [Robot Design Game][RDG], followed by the game tournament
@@ -185,28 +186,28 @@ become fit for automation.
 by the speakers.*
 
 
-1. What would an ideal automated robot design process look like? What is the role
+* What would an ideal automated robot design process look like? What is the role
 of human interaction with the tool? What techniques can we use from formal
 methods or software engineering and human-computer interaction? The broader
 design community? What is there to learn from the "maker" movement?
-2. How can we parametrize (or otherwise abstract) robotic components, to avoid
+* How can we parameterize (or otherwise abstract) robotic components, to avoid
 hand-maintaining large component “libraries”? What are the pros and cons of
 modular robotic components in automating design?
-3. What are examples of robots achieving tasks with minimal resources? How can
+* What are examples of robots achieving tasks with minimal resources? How can
 these examples inform automatic design?
-4. Are sensing, actuation, computation, communication and power the correct
+* Are sensing, actuation, computation, communication and power the correct
 categories for formalizing robotic resources? What are some first steps toward
 formalizing resource trade-offs in robot design?
-5. What are some interesting existing methods for formal specification of robot
+* What are some interesting existing methods for formal specification of robot
 functionality and task structure? What are the shortcomings of these methods?
-6. What question is missing from this list?
+* What question is missing from this list?
 
 
 ### Organizers
 
 * [Andrea Censi](http://censi.science) (ETHZ/nuTonomy)
 * [Hadas Kress-Gazit](http://verifiablerobotics.com) (Cornell)
-* [Alexandra Nilles](http://alexandroid000.github.io/index.html) (UIU
+* [Alexandra Nilles](http://alexandroid000.github.io/index.html) (UIUC)
 * [Jason O'Kane](https://cse.sc.edu/~jokane) (South Carolina)
 
 
