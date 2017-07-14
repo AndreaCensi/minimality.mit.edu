@@ -132,7 +132,7 @@ Time                Speaker/Activity
 **11:00-11:15**     [Stelian Coros](http://www.cs.cmu.edu/~scoros/)
 **11:15-11:30**     [Sehoon Ha](http://sehoonha.com/)
 **11:30-11:45**     Mathew Halm
-**11:45-12:00**     Jason Ziglar
+**11:45-12:00**     [Jason Ziglar](https://ziglar.info)
 **12:00-12:15**     [Matt Carney](http://www.matthematic.com/)
 **12:15-12:30**     [Ankur Mehta](https://uclalemur.com/)
 **12:30-1:30**      *Lunch*
