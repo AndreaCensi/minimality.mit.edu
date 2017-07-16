@@ -25,7 +25,7 @@ We are excited to invite you to the
 
 [rss17]: http://www.roboticsconference.org
 
--   **Building 36, room 153**
+-   **Building 36, room 112**
 -   [Map](http://www.roboticsconference.org/images/workshops/36-112.jpg)
 
 This workshop follows the successful [first edition in 2016][ws16].
