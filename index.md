@@ -25,6 +25,9 @@ We are excited to invite you to the
 
 [rss17]: http://www.roboticsconference.org
 
+-   **Building 36, room 153**
+-   [Map](http://www.roboticsconference.org/images/workshops/36-112.jpg)
+
 This workshop follows the successful [first edition in 2016][ws16].
 That is the workshop that originated [The Robot Design Game][RDG],
 a **card game** which seeks to explore the tradeoffs in resource
@@ -36,6 +39,7 @@ This is a special workshop, for many reasons. Rather than making it a
 mainstream idea of what a "workshop" should be, we sought to make this
 an opportunity to think broadly about some new interesting science to
 come.
+
 
 The workshop is divided in three parts:
 
@@ -73,12 +77,6 @@ The workshop is divided in three parts:
 Later the organizers will edit the materials produced into a position statement.
 
 
-Date/Location
--------------
-
--   Sunday, July 16 (full day workshop)
-
-<!-- -   location TBA -->
 
 Schedule
 --------
@@ -133,8 +131,9 @@ Time                Speaker/Activity
 **11:15-11:30**     [Sehoon Ha](http://sehoonha.com/)
 **11:30-11:45**     Mathew Halm
 **11:45-12:00**     [Jason Ziglar](https://ziglar.info)
-**12:00-12:15**     [Ankur Mehta](https://uclalemur.com/)
-**12:15-1:30**      *Lunch*
+**12:00-12:15**     [Ron Alterovitz](https://www.cs.unc.edu/~ron/)
+**12:15-12:30**     [Ankur Mehta](https://uclalemur.com/)
+**12:30-1:30**      *Lunch*
 **1:30-2:00**       Reconvene from lunch, form groups for the [Robot Design Game][RDG]
 **2:00-3:00**       Alli Nilles - Explanation of the [Robot Design Game][RDG], followed by the game tournament
 **3:00-3:30**       *Break (or continue playing the game)*
