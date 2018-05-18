@@ -28,6 +28,9 @@ We are excited to invite you to the
 -   **Building 36, room 112**
 -   [Map](http://www.roboticsconference.org/images/workshops/36-112.jpg)
 
+<img class='group-photo' src="2017_workshop_group_photo.jpg" width=700/>
+
+
 This workshop follows the successful [first edition in 2016][ws16].
 That is the workshop that originated [The Robot Design Game][RDG],
 a **card game** which seeks to explore the tradeoffs in resource
