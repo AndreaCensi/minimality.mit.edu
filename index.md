@@ -126,16 +126,16 @@ h2 { clear: both;}
 Time                Speaker/Activity
 ----                ----------------
 **9:30-9:45**       Andrea Censi - *Introduction to the workshop*
-**9:45-10:00**      [Kirstin Petersen](http://cei.ece.cornell.edu/)
+**9:45-10:00**      [Kirstin Petersen](http://cei.ece.cornell.edu/), *Designing Robot Collectives.* [slides](slides/petersen.pdf)
 **10:00-10:15**     [Andrew Spielberg](http://www.andrewspielberg.com/)
 **10:15-10:30**     [Amy LaViers](http://radlab.mechse.illinois.edu/)
 **10:30-11:00**     *Break*
 **11:00-11:15**     [Stelian Coros](http://www.cs.cmu.edu/~scoros/)
 **11:15-11:30**     [Sehoon Ha](http://sehoonha.com/)
-**11:30-11:45**     Mathew Halm
-**11:45-12:00**     [Jason Ziglar](https://ziglar.info)
+**11:30-11:45**     Mathew Halm, *Direct Design Optimization for Trajectory Performance.* [slides](slides/halm.pdf)
+**11:45-12:00**     [Jason Ziglar](https://ziglar.info), *Modularity & Composition: Automating System Synthesis.* [slides](slides/ziglar.pdf)
 **12:00-12:15**     [Ron Alterovitz](https://www.cs.unc.edu/~ron/)
-**12:15-12:30**     [Ankur Mehta](https://uclalemur.com/)
+**12:15-12:30**     [Ankur Mehta](https://uclalemur.com/), *Is minimization the right answer?* [slides](slides/mehtank.pdf)
 **12:30-1:30**      *Lunch*
 **1:30-2:00**       Reconvene from lunch, form groups for the [Robot Design Game][RDG]
 **2:00-3:00**       Alli Nilles - Explanation of the [Robot Design Game][RDG], followed by the game tournament
